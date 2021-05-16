@@ -53,7 +53,7 @@ public class MavenTest1 {
     	  Thread.sleep(2500);
     	  WebElement to = driver.findElement(By.xpath("//textarea[@name='to']"));
     	  
-    	  to.sendKeys("preslynpeter@gmail.com");
+    	  to.sendKeys("nature.save.2021@gmail.com");
     	  Thread.sleep(2500);
     	  WebElement sub = driver.findElement(By.xpath("//input[@name='subjectbox']"));
     	  sub.sendKeys("Incubyte");
