@@ -28,7 +28,7 @@ public class MavenTest1 {
     }		
 
     @Test				
-    public void enter_the_Username_and_Password() throws Throwable 							
+    public void test_compose_button() throws Throwable 							
     {		// Enter Username
     	  WebElement username = driver.findElement(By.xpath("//input[@type='email']"));
     	  username.sendKeys("nature.save.2021@gmail.com");
@@ -47,11 +47,8 @@ public class MavenTest1 {
     	  Thread.sleep(500);
     	  driver.findElement(By.xpath("//div[@class='VfPpkd-RLmnJb']")).click();
        //System.out.println("This step enter the Username and Password on the login page.");					
-    }		
-
-    @Test	
-    public void Reset_the_credential() throws Throwable 							
-    {  //Compose Button
+    							
+      //Compose Button
     	  driver.findElement(By.xpath("//div[@class='T-I T-I-KE L3']")).click();
     	  Thread.sleep(2500);
     	  WebElement to = driver.findElement(By.xpath("//textarea[@name='to']"));

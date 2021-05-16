@@ -5,9 +5,9 @@
     <classes>
       <class name="resigistration.MavenTest1">
         <methods>
-          <include name="test"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
+          <include name="enter_the_Username_and_Password"/>
+          <include name="closeBrowser"/>
+          <include name="open_the_Chrome_and_login_to_Gmail_account"/>
         </methods>
       </class> <!-- resigistration.MavenTest1 -->
     </classes>

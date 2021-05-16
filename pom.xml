@@ -46,7 +46,7 @@
 <groupId>org.testng</groupId>  
 <artifactId>testng</artifactId>  
 <version>6.10</version>  
-<scope>tsest</scope>  
+<scope>test</scope>  
 </dependency>  
 <dependency>  
 <groupId>com.google.inject</groupId>  
