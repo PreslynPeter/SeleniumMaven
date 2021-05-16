@@ -49,7 +49,7 @@ public class MavenTest1 {
        //System.out.println("This step enter the Username and Password on the login page.");					
     }		
 
-    				
+    @Test	
     public void Reset_the_credential() throws Throwable 							
     {  //Compose Button
     	  driver.findElement(By.xpath("//div[@class='T-I T-I-KE L3']")).click();
